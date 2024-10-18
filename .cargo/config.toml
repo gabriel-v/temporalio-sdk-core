@@ -4,3 +4,5 @@ lint = ["clippy", "--workspace", "--examples", "--all-features",
     "--test", "integ_tests", "--test", "heavy_tests", "--", "--D", "warnings"]
 test-lint = ["clippy", "--all", "--all-features", "--examples", "--workspace",
     "--tests", "--", "--D", "warnings"]
+[toolchain]
+channel = "nightly"
